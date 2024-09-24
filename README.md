@@ -20,7 +20,12 @@ To get started, import `sqlite3` as well as `pandas` for conveniently displaying
 
 
 ```python
-# Your code here
+import sqlite3
+import pandas as pd
+
+# Connect to the SQLite database
+conn = sqlite3.connect(r'C:\Users\Administrator\Desktop\SQL\planets.db')
+
 ```
 
 ## Database Schema
