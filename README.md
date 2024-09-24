@@ -64,7 +64,10 @@ Write SQL queries for each of the statements below using the same pandas wrappin
 
 
 ```python
-# Your code here
+pd.read_sql("""
+SELECT name, color
+  FROM planets;
+""", conn)
 ```
 
 ### 2. Select all columns for each planet whose `num_of_moons` is 0
